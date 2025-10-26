@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: #fcf5e9;
-    --dark-color: #333; 
+    --dark-color: #333;
     --container-normal: 1100px;
     --container-wide: 1400px;
     --container-narrow: 900px;
@@ -61,13 +61,13 @@ img {
 }
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 .section-heading {
@@ -189,12 +189,12 @@ img {
 
 /* Services */
 .services {
-   padding: 3rem 0 4rem;
+    padding: 3rem 0 4rem;
 }
 
 .services-flex {
     display: flex;
-    gap: 2rem; 
+    gap: 2rem;
 }
 
 .service-item h4 {
@@ -204,7 +204,7 @@ img {
 
 /* Team */
 .team {
-    padding: 3rem 0 4 rem;
+    padding: 3rem 0 3rem;
 }
 
 .team-flex {
@@ -256,6 +256,7 @@ img {
 
 /* Media Queries */
 @media (max-width: 768px) {
+
     .header .header-flex,
     .footer .footer-flex,
     .services .services-flex,
